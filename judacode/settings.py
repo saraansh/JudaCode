@@ -26,7 +26,7 @@ SECRET_KEY = '^f=z%we8smx20t6)znyz_45=*o(*cbm1!9%=h*f=8!3q185&3q'
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
-
+LOGIN_URL = "/judacode/login/"
 
 # Application definition
 
@@ -119,3 +119,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
